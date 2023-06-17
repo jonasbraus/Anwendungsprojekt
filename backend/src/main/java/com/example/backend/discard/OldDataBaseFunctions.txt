@@ -1,0 +1,124 @@
+    /**
+     * WEEKS
+     */
+
+    public Week addWeek(Week week)
+    {
+        try
+        {
+            st.executeUpdate("insert into weeks (semesterid, weeknumber) values (" + week.getSemesterid() + ", " + week.getWeeknumber() + ")");
+
+            return getWeek(week.getSemesterid(), week.getWeeknumber());
+
+        } catch (SQLException e)
+        {
+            return null;
+        }
+    }
+
+    public Week getWeek(int id)
+    {
+        ResultSet rs = null;
+        try
+        {
+            rs = st.executeQuery("select * from weeks where id=" + id);
+
+            return resultSetToWeek(rs);
+
+        } catch (SQLException e)
+
+        {
+            return null;
+        }
+
+    }
+
+    public Week getWeek(int semesterid, int weeknumber)
+    {
+        try
+        {
+            ResultSet rs = st.executeQuery("select * from weeks where semesterid =" + semesterid + " and weeknumber=" + weeknumber);
+
+            return resultSetToWeek(rs);
+        }
+        catch (SQLException e)
+        {
+            return null;
+        }
+
+    }
+
+    private Week resultSetToWeek(ResultSet rs) {
+        try {
+            rs.next();
+
+            return new Week(
+                    rs.getInt("id"),
+                    rs.getInt("semesterid"),
+                    rs.getInt("weeknumber")
+            );
+        } catch (SQLException e) {
+            return null;
+        }
+    }
+
+    /**
+     DAYS
+     */
+    public Day addDay(Day day)
+    {
+        try
+        {
+            st.executeUpdate("insert into days (dayinyear, yearnumber, semesterid) values (" + day.getDayinyear() + ", " + day.getYearnumber() + ", " + day.getSemesterid() + ")");
+            return getDay(day.getDayinyear(), day.getYearnumber(), day.getSemesterid());
+        } catch (SQLException e)
+        {
+            return null;
+        }
+    }
+
+    public Day getDay(int id)
+    {
+        try
+        {
+            ResultSet rs = st.executeQuery("select * from days where id=" + id);
+
+            return resultSetToDay(rs);
+        }
+        catch(Exception e)
+        {
+            return null;
+        }
+    }
+
+    public Day getDay(int dayinyear, int yearnumber, int semesterid)
+    {
+        try
+        {
+            ResultSet rs = st.executeQuery("select * from days where dayinyear =" + dayinyear + " and yearnumber =" + yearnumber + " and semesterid =" + semesterid);
+
+            return resultSetToDay(rs);
+        }
+        catch(Exception e)
+        {
+            return null;
+        }
+    }
+
+    private Day resultSetToDay(ResultSet rs)
+    {
+        try
+        {
+            rs.next();
+
+            return new Day(
+                    rs.getInt("id"),
+                    rs.getInt("dayinyear"),
+                    rs.getInt("yearnumber"),
+                    rs.getInt("semesterid")
+            );
+        } catch (SQLException e)
+        {
+            return null;
+        }
+    }
