@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="744e9299-0ce3-415c-8733-c935bf920887" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anwendung/src/components/CalendarSideBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/anwendung/src/components/CalendarSideBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anwendung/src/components/DateElement.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/anwendung/src/components/DateElement.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anwendung/src/components/WeekSelector.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/anwendung/src/components/WeekSelector.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anwendung/src/pages/semesteroverview.js" beforeDir="false" afterPath="$PROJECT_DIR$/anwendung/src/pages/semesteroverview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anwendung/src/pages/semesteroverviewLecturer.js" beforeDir="false" afterPath="$PROJECT_DIR$/anwendung/src/pages/semesteroverviewLecturer.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2PV5k9t8lC9xvqgtEIMZ2TApWUu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/afist/WebstormProjects/SideBarCalendarTest&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\afist\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\231.8770.64\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\TIF22A_AnwProjekt_B\anwendung\src\images" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/anwendung/src/pages">
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/anwendung/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="node" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/anwendung/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="node" />
+      <package-manager value="npm" />
+      <envs />
+      <method v="2">
+        <option name="NpmBeforeRunTask" enabled="true">
+          <package-json value="$PROJECT_DIR$/anwendung/package.json" />
+          <command value="run" />
+          <scripts>
+            <script value="build" />
+          </scripts>
+          <node-interpreter value="node" />
+          <package-manager value="npm" />
+          <envs />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.index.js" />
+      <item itemvalue="npm.build" />
+      <item itemvalue="npm.dev" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.index.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="744e9299-0ce3-415c-8733-c935bf920887" name="Changes" comment="" />
+      <created>1683529551159</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683529551159</updated>
+      <workItem from="1683529552463" duration="1756000" />
+      <workItem from="1683830457997" duration="1285000" />
+      <workItem from="1684223646646" duration="1195000" />
+      <workItem from="1684228236564" duration="1017000" />
+      <workItem from="1684257831013" duration="1011000" />
+      <workItem from="1684267194850" duration="890000" />
+      <workItem from="1684672228161" duration="1603000" />
+      <workItem from="1684788345629" duration="1507000" />
+      <workItem from="1684856925307" duration="3000" />
+      <workItem from="1684856964097" duration="5995000" />
+      <workItem from="1684915449317" duration="9318000" />
+      <workItem from="1685011281036" duration="2214000" />
+      <workItem from="1685055429281" duration="634000" />
+      <workItem from="1685103879210" duration="2066000" />
+      <workItem from="1685142372079" duration="5289000" />
+      <workItem from="1685311018550" duration="2063000" />
+      <workItem from="1685356323722" duration="4005000" />
+      <workItem from="1685389394962" duration="4465000" />
+      <workItem from="1685439319096" duration="492000" />
+      <workItem from="1686165563810" duration="18166000" />
+      <workItem from="1686259026223" duration="2970000" />
+      <workItem from="1686313568230" duration="1725000" />
+      <workItem from="1686331195896" duration="7520000" />
+      <workItem from="1686345244271" duration="7553000" />
+      <workItem from="1686572559048" duration="4289000" />
+      <workItem from="1686655739777" duration="3725000" />
+      <workItem from="1686659590430" duration="2344000" />
+      <workItem from="1686690018802" duration="32000" />
+      <workItem from="1686690072078" duration="307000" />
+      <workItem from="1686727178400" duration="9281000" />
+      <workItem from="1686825740350" duration="2964000" />
+      <workItem from="1686831091729" duration="595000" />
+      <workItem from="1686906198799" duration="2151000" />
+      <workItem from="1686910129813" duration="1653000" />
+      <workItem from="1686923077769" duration="3441000" />
+      <workItem from="1687173723149" duration="7011000" />
+      <workItem from="1687240431966" duration="47000" />
+      <workItem from="1687245202053" duration="3425000" />
+      <workItem from="1687249039012" duration="3407000" />
+      <workItem from="1687349584578" duration="477000" />
+      <workItem from="1687354510081" duration="453000" />
+      <workItem from="1687354999964" duration="291000" />
+      <workItem from="1687431213516" duration="596000" />
+      <workItem from="1688661149524" duration="602000" />
+      <workItem from="1688661766941" duration="1680000" />
+      <workItem from="1688812359996" duration="6843000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

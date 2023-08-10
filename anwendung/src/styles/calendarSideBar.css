@@ -1,0 +1,63 @@
+.A
+{
+    border: 0px solid;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: white;
+    padding: 15px;
+    height: 270px;
+}
+
+.A P
+{
+    text-align: center;
+}
+
+.Days
+{
+    display: inline-grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    height: 200px;
+    width: 250px;
+}
+
+.Down
+{
+    border-radius: 20px;
+    display: inline-grid;
+    grid-column: auto;
+    height: 200%;
+    width: 20%;
+}
+
+@media only screen and  (min-width: 1650px)
+{
+    .Allround
+    {
+        position: relative;
+        max-height : 73vh;
+        overflow-y: scroll;
+        overflow-anchor: none;
+    }
+
+    .Allround::-webkit-scrollbar
+    {
+        background-color: rgba(0, 0, 0, 0);
+        width: 12px;
+    }
+    .Allround::-webkit-scrollbar-thumb
+    {
+        background-color: gray;
+        border-radius: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 1650px)
+{
+    .Allround
+    {
+        display: none;
+    }
+}
