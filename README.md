@@ -1,5 +1,4 @@
-# TIF22A_AnwProjekt_B
-Team B im Anwendungsprojekt (TIF22A) 
+Projekt von Amira, Ali, Jonas, Alex, Mike
 
 Website can be accessed under: http://lectureplanner.de/ (caution no https, only http)
 
